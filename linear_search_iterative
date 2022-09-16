@@ -1,0 +1,16 @@
+def linear_search(arr,x):
+
+    for a in range(len(arr)):
+
+        if arr[a] == x:
+            return a
+
+    return -1
+
+arr = [34,5,43,87,9,10,28,91]
+x = 28
+index = linear_search(arr,x)
+
+print("The index of", x , "is at", index)
+
+#While the best case scenario of this algorithm might be 0(1), the worst case wil go upto to 0(n), therefore it is suitable for smaller datasets

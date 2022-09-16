@@ -16,5 +16,5 @@ index = recursive_search(arr,0,n-1,x)
 
 print(x,"is at index {i}".format(i = index))
 
-#The time complexity of this algorithm is in the order of (0)n
+#The time complexity of this algorithm is in the order of 0(n)
 #The space complexity is in constant time 

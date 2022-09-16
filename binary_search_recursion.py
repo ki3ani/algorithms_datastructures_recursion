@@ -21,3 +21,6 @@ n = len(arr)
 index = binary_search(arr,0,n-1,x)
 
 print("We have",x, "at index", index)
+
+#binary search is significantly faster than linear search when dealing with a large dataset regardless of the need to sort it first
+# its time complexity is  O(log n)
